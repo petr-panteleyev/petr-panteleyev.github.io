@@ -1,0 +1,52 @@
+div#rootDiv {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5em;
+}
+
+div#repositoryGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 16px auto;
+    row-gap: 0.5em;
+    column-gap: 2px;
+    font-size: large;
+}
+
+div.repoGroupTitle {
+    font-size: x-large;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+img.smallIcon {
+    width: 16px;
+    height: 16px;
+}
+
+div#contactsRow {
+    display: flex;
+    column-gap: 5px;
+    justify-content: space-evenly;
+}
+
+div#gpgInfo {
+    display: grid;
+    row-gap: 0.5em;
+    column-gap: 1em;
+    width: fit-content;
+    grid-template-columns: repeat(2, auto);
+}
+
+div#contactsPanel {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+a {
+    text-decoration: none !important;
+}
